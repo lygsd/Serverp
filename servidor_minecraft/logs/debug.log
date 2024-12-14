@@ -2198,3 +2198,7 @@ java.net.SocketException: Broken pipe
 [14Dec2024 01:36:32.061] [bStats-Metrics/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/server/network/ServerLoginPacketListenerImpl$1SyncPreLogin$8ae89ce310c24d73b19b8c9a1c06d89e (originally io/izzel/arclight/common/mixin/core/network/ServerLoginNetHandlerMixin$1SyncPreLogin)
 [14Dec2024 01:37:57.759] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [14Dec2024 01:37:57.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Dec2024 01:42:57.766] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Dec2024 01:42:57.801] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Dec2024 01:47:57.748] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Dec2024 01:47:57.755] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
