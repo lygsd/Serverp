@@ -1,4 +1,4 @@
-[08Dec2024 01:09:05.988] [main/INFO] [Arclight/]: 
+[14Dec2024 01:31:44.909] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,326 +10,690 @@
     运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
     构建日期 2024-02-28 14:51:40
 
-[08Dec2024 01:09:06.051] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[08Dec2024 01:09:06.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[08Dec2024 01:09:06.185] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[08Dec2024 01:09:06.235] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Serverp/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
-[08Dec2024 01:09:06.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
-[08Dec2024 01:09:06.697] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[08Dec2024 01:09:06.713] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[08Dec2024 01:09:06.717] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[08Dec2024 01:09:06.845] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Dec2024 01:09:09.188] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
-[08Dec2024 01:09:09.260] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Dec2024 01:09:09.269] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
-[08Dec2024 01:09:09.277] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
-[08Dec2024 01:09:09.284] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
-[08Dec2024 01:09:25.681] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
-[08Dec2024 01:09:25.717] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
-[08Dec2024 01:09:25.717] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
-[08Dec2024 01:09:25.802] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
-[08Dec2024 01:09:26.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Dec2024 01:09:27.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
-[08Dec2024 01:09:28.955] [main/ERROR] [net.minecraft.server.dedicated.Settings/]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?] {}
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?] {}
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?] {}
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218) ~[?:?] {}
-	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?] {}
-	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?] {}
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?] {}
-	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?] {}
-	at net.minecraft.server.dedicated.Settings.m_139839_(Settings.java:36) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B}
-	at net.minecraft.server.dedicated.DedicatedServerProperties.m_180929_(DedicatedServerProperties.java:137) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B}
-	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:126) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:classloading,pl:accesstransformer:B}
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23103!/:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2389!/:?] {}
-	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:46) ~[arclight.jar:arclight-1.20.1-1.0.5-1a8925b] {}
-	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:13) ~[arclight.jar:arclight-1.20.1-1.0.5-1a8925b] {}
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
-	at io.izzel.arclight.boot.application.Main_Forge.main(Main_Forge.java:23) ~[arclight.jar%2383!/:arclight-1.20.1-1.0.5-1a8925b] {}
-	at io.izzel.arclight.server.Launcher.main(Launcher.java:18) ~[arclight.jar%2383!/:arclight-1.20.1-1.0.5-1a8925b] {}
-[08Dec2024 01:09:28.996] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Dec2024 01:09:29.091] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
-[08Dec2024 01:09:29.091] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
-[08Dec2024 01:09:32.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Dec2024 01:09:32.239] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[08Dec2024 01:09:33.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[08Dec2024 01:09:33.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Dec2024 01:09:33.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Dec2024 01:09:33.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Dec2024 01:09:33.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Dec2024 01:09:33.930] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Dec2024 01:09:34.532] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.5-1a8925b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[08Dec2024 01:09:35.335] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
-[08Dec2024 01:09:35.373] [Server thread/INFO] [Arclight/]: 注册了 0 个材料，其中 0 个方块 0 个物品
-[08Dec2024 01:09:35.383] [Server thread/INFO] [Arclight/]: 注册了 1 个新的药水效果
-[08Dec2024 01:09:35.396] [Server thread/INFO] [Arclight/]: 注册了 39 个新的附魔
-[08Dec2024 01:09:35.397] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物类型
-[08Dec2024 01:09:35.398] [Server thread/INFO] [Arclight/]: 注册了 0 个新的村民职业
-[08Dec2024 01:09:35.399] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
-[08Dec2024 01:09:35.417] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
-[08Dec2024 01:09:35.421] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[08Dec2024 01:09:35.424] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[08Dec2024 01:09:35.542] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[08Dec2024 01:09:35.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[08Dec2024 01:09:35.545] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[08Dec2024 01:09:35.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[08Dec2024 01:09:35.546] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[08Dec2024 01:09:35.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[08Dec2024 01:09:35.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[08Dec2024 01:09:35.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[08Dec2024 01:09:35.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[08Dec2024 01:09:35.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Dec2024 01:09:35.681] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
-[08Dec2024 01:09:36.461] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
-[08Dec2024 01:09:36.462] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[08Dec2024 01:09:36.463] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[08Dec2024 01:09:36.464] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[08Dec2024 01:09:36.464] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[08Dec2024 01:09:36.465] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08Dec2024 01:09:36.466] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[08Dec2024 01:09:36.467] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[08Dec2024 01:09:36.468] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[08Dec2024 01:09:36.470] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[08Dec2024 01:09:36.470] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[08Dec2024 01:09:36.471] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[08Dec2024 01:09:36.472] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[08Dec2024 01:09:36.473] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[08Dec2024 01:09:36.474] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[08Dec2024 01:09:36.474] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[08Dec2024 01:09:36.475] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[08Dec2024 01:09:36.476] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[08Dec2024 01:09:36.477] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[08Dec2024 01:09:36.477] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[08Dec2024 01:09:36.478] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[08Dec2024 01:09:36.479] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[08Dec2024 01:09:36.480] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[08Dec2024 01:09:36.480] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[08Dec2024 01:09:36.481] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[08Dec2024 01:09:36.482] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[08Dec2024 01:09:36.483] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[08Dec2024 01:09:36.484] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[08Dec2024 01:09:36.486] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[08Dec2024 01:09:36.487] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[08Dec2024 01:09:36.488] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08Dec2024 01:09:36.489] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[08Dec2024 01:09:36.489] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[08Dec2024 01:09:36.490] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[08Dec2024 01:09:36.491] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[08Dec2024 01:09:36.491] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[08Dec2024 01:09:54.399] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[08Dec2024 01:09:54.400] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[08Dec2024 01:09:54.401] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[08Dec2024 01:09:54.402] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[08Dec2024 01:09:54.402] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[08Dec2024 01:09:54.402] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[08Dec2024 01:09:54.402] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[08Dec2024 01:09:54.402] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[08Dec2024 01:09:54.403] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[08Dec2024 01:09:54.404] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[08Dec2024 01:09:54.477] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[08Dec2024 01:09:54.478] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[08Dec2024 01:09:54.478] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[08Dec2024 01:09:54.479] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[08Dec2024 01:09:54.479] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[08Dec2024 01:09:54.482] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[08Dec2024 01:09:54.482] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[08Dec2024 01:09:54.483] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[08Dec2024 01:09:54.483] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[08Dec2024 01:09:54.484] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[08Dec2024 01:09:54.484] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[08Dec2024 01:09:54.484] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[08Dec2024 01:09:54.485] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[08Dec2024 01:09:54.485] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[08Dec2024 01:09:54.486] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[08Dec2024 01:09:54.486] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[08Dec2024 01:09:54.487] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[08Dec2024 01:09:54.487] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[08Dec2024 01:09:54.488] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[08Dec2024 01:09:54.489] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[08Dec2024 01:09:54.489] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[08Dec2024 01:09:54.489] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[08Dec2024 01:09:54.489] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[08Dec2024 01:09:54.489] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[08Dec2024 01:09:54.490] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[08Dec2024 01:09:54.490] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[08Dec2024 01:09:54.490] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[08Dec2024 01:09:54.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Dec2024 01:09:56.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:56.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:56.237] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:56.238] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:56.559] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:57.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:57.567] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:58.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:58.549] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:59.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:09:59.582] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:00.065] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:00.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:01.066] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:01.906] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:02.060] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:02.538] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:03.124] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:03.549] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:04.066] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:04.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:05.139] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:05.571] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:06.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:06.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:07.069] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:07.555] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:08.048] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:08.593] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:09.051] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:09.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:10.068] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:10.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:11.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:11.636] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:12.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:12.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:13.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:13.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:14.042] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:14.569] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:15.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:15.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:16.038] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:16.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:17.053] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:17.592] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:18.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:18.562] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:19.045] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:19.555] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:20.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:20.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:21.056] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:21.538] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:22.103] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:22.566] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:23.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:23.549] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:24.068] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:24.561] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:25.065] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:25.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:26.085] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:26.556] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:27.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:27.552] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:28.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:28.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:29.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:29.569] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:30.066] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:30.551] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:31.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:31.565] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:32.046] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:32.562] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:33.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:33.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:34.038] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:34.563] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:35.040] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:35.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:36.067] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:36.563] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:37.038] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:37.626] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:38.054] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:38.562] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:39.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:39.612] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:40.161] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:40.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:41.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:41.544] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:42.060] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:42.551] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:43.040] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:43.548] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:44.040] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:44.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:45.041] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:45.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:46.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:46.561] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:47.048] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:47.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:48.065] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Dec2024 01:10:50.104] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Dec2024 01:10:50.105] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Dec2024 01:10:50.105] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Dec2024 01:10:50.106] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[08Dec2024 01:10:50.809] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[08Dec2024 01:10:54.993] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 60457 ms
-[08Dec2024 01:10:54.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (79.462s)! For help, type "help"
-[08Dec2024 01:10:55.030] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Dec2024 01:10:55.032] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
-[08Dec2024 01:14:41.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[08Dec2024 01:14:41.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Dec2024 01:14:41.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Dec2024 01:14:41.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Dec2024 01:14:44.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08Dec2024 01:14:45.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
-[08Dec2024 01:14:45.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[14Dec2024 01:31:44.972] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[14Dec2024 01:31:44.976] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[14Dec2024 01:31:45.149] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[14Dec2024 01:31:45.214] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Serverp/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[14Dec2024 01:31:45.612] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[14Dec2024 01:31:45.618] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[14Dec2024 01:31:45.622] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[14Dec2024 01:31:45.624] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Serverp/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[14Dec2024 01:31:45.790] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Dec2024 01:31:48.284] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[14Dec2024 01:31:48.389] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Dec2024 01:31:48.394] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[14Dec2024 01:31:48.404] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[14Dec2024 01:31:48.419] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[14Dec2024 01:32:07.604] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[14Dec2024 01:32:07.671] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[14Dec2024 01:32:07.671] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[14Dec2024 01:32:07.752] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[14Dec2024 01:32:08.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Dec2024 01:32:09.310] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
+[14Dec2024 01:32:10.992] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Dec2024 01:32:11.987] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[14Dec2024 01:32:11.987] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Serverp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[14Dec2024 01:32:14.740] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Dec2024 01:32:15.033] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[14Dec2024 01:32:16.205] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Dec2024 01:32:16.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Dec2024 01:32:16.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Dec2024 01:32:16.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Dec2024 01:32:16.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Dec2024 01:32:16.786] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Dec2024 01:32:16.915] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Dec2024 01:32:16.915] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Dec2024 01:32:16.915] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Dec2024 01:32:16.915] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Dec2024 01:32:17.242] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.5-1a8925b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[14Dec2024 01:32:18.072] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[14Dec2024 01:32:18.122] [Server thread/INFO] [Arclight/]: 注册了 0 个材料，其中 0 个方块 0 个物品
+[14Dec2024 01:32:18.129] [Server thread/INFO] [Arclight/]: 注册了 1 个新的药水效果
+[14Dec2024 01:32:18.140] [Server thread/INFO] [Arclight/]: 注册了 39 个新的附魔
+[14Dec2024 01:32:18.141] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物类型
+[14Dec2024 01:32:18.142] [Server thread/INFO] [Arclight/]: 注册了 0 个新的村民职业
+[14Dec2024 01:32:18.144] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[14Dec2024 01:32:18.180] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[14Dec2024 01:32:18.185] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[14Dec2024 01:32:18.186] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[14Dec2024 01:32:18.394] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ViaRewind-4.0.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ViaBackwards. Please download and install ViaBackwards to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[14Dec2024 01:32:18.411] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[14Dec2024 01:32:19.156] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[14Dec2024 01:32:19.749] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/Chunky-1.4.10.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoaderMixin.java:149) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:435) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {re:mixin}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {re:mixin}
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoaderMixin.java:643) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoaderMixin.java:104) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoaderMixin.java:99) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {re:mixin}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Class.java:467) ~[?:?] {re:mixin}
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoaderMixin.java:67) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:PluginClassLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoaderMixin.java:145) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	... 8 more
+[14Dec2024 01:32:20.282] [Server thread/INFO] [Images/]: Loading Images v2.5.1
+[14Dec2024 01:32:20.290] [Server thread/INFO] [ViaVersion/]: Loading ViaVersion v5.0.3
+[14Dec2024 01:32:20.347] [Server thread/INFO] [ViaVersion/]: ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[14Dec2024 01:32:21.007] [Via-Mappingloader-0/INFO] [ViaVersion/]: Loading block connection mappings ...
+[14Dec2024 01:32:21.383] [Via-Mappingloader-0/INFO] [ViaVersion/]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[14Dec2024 01:32:21.599] [Server thread/INFO] [floodgate/]: Loading floodgate v2.2.3-SNAPSHOT (b110-e7e40f5)
+[14Dec2024 01:32:22.342] [Server thread/WARN] [floodgate/]: en_ is not a supported Floodgate language.
+[14Dec2024 01:32:22.418] [Server thread/ERROR] [org.bukkit.craftbukkit.v1_20_R1.CraftServer/]: Unable to create injector, see the following errors:
+
+1) Error notifying InjectionListener CommonModule$1$$Lambda$7409/0x00007a503517c8d0@74f23be8 of Metrics.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating Metrics
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at TRANSFORMER/arclight@1.20.1-1.0.5-1a8925b/org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:440)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.m_7038_(DedicatedServerMixin.java:158)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_130011_(MinecraftServerMixin.java:2028)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_206580_(MinecraftServerMixin.java:251)
+	at java.base/Thread.run(Thread.java:840)
+Caused by: IllegalArgumentException: InternalLambdaFactory$$Lambda$7429.Lmbda$1 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:167)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2283)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2318)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1843)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:318)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2) Error notifying InjectionListener CommonModule$1$$Lambda$7409/0x00007a503517c8d0@7eabc3b8 of PostEnableMessages.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating PostEnableMessages
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at TRANSFORMER/arclight@1.20.1-1.0.5-1a8925b/org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:440)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.m_7038_(DedicatedServerMixin.java:158)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_130011_(MinecraftServerMixin.java:2028)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_206580_(MinecraftServerMixin.java:251)
+	at java.base/Thread.run(Thread.java:840)
+Caused by: IllegalArgumentException: InternalLambdaFactory$$Lambda$7429.Lmbda$2 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:167)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2283)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2318)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1843)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:318)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2 errors
+
+======================
+Full classname legend:
+======================
+AccessController:                   "java.security.AccessController"
+AutoBindModule:                     "org.geysermc.floodgate.module.AutoBindModule"
+BaseBusImpl:                        "org.geysermc.event.bus.impl.BaseBusImpl"
+BiConsumer:                         "java.util.function.BiConsumer"
+CommonModule$1$$Lambda$7409:        "org.geysermc.floodgate.module.CommonModule$1$$Lambda$7409"
+ConstructorBindingImpl$Factory:     "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory"
+ConstructorInjector:                "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector"
+DedicatedServer:                    "net.minecraft.server.dedicated.DedicatedServer"
+EventBusImpl:                       "org.geysermc.event.bus.impl.EventBusImpl"
+Guice:                              "org.geysermc.floodgate.shadow.com.google.inject.Guice"
+InternalFactoryToProviderAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter"
+InternalInjectorCreator:            "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator"
+InternalLambdaFactory:              "org.lanternpowered.lmbda.InternalLambdaFactory"
+InternalLambdaFactory$$Lambda$7429: "org.lanternpowered.lmbda.InternalLambdaFactory$$Lambda$7429"
+InternalMethodHandles$Java9Adapter: "org.lanternpowered.lmbda.InternalMethodHandles$Java9Adapter"
+InternalUtilities:                  "org.lanternpowered.lmbda.InternalUtilities"
+LambdaFactory:                      "org.lanternpowered.lmbda.LambdaFactory"
+MembersInjectorImpl:                "org.geysermc.floodgate.shadow.com.google.inject.internal.MembersInjectorImpl"
+MethodHandleStatics:                "java.lang.invoke.MethodHandleStatics"
+MethodHandles$Lookup:               "java.lang.invoke.MethodHandles$Lookup"
+MethodHandles$Lookup$ClassFile:     "java.lang.invoke.MethodHandles$Lookup$ClassFile"
+MethodHandlesExtensions:            "org.lanternpowered.lmbda.MethodHandlesExtensions"
+Metrics:                            "org.geysermc.floodgate.util.Metrics"
+MinecraftServer:                    "net.minecraft.server.MinecraftServer"
+PostEnableMessages:                 "org.geysermc.floodgate.util.PostEnableMessages"
+ProviderToInternalFactoryAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter"
+ServerCommonModule:                 "org.geysermc.floodgate.module.ServerCommonModule"
+SingletonScope$1:                   "org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1"
+SpigotPlugin:                       "org.geysermc.floodgate.SpigotPlugin"
+========================
+End of classname legend:
+========================
+ initializing floodgate v2.2.3-SNAPSHOT (b110-e7e40f5) (Is it up to date?)
+org.geysermc.floodgate.shadow.com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) Error notifying InjectionListener CommonModule$1$$Lambda$7409/0x00007a503517c8d0@74f23be8 of Metrics.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating Metrics
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(Metrics,ShutdownEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at TRANSFORMER/arclight@1.20.1-1.0.5-1a8925b/org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:440)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.m_7038_(DedicatedServerMixin.java:158)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_130011_(MinecraftServerMixin.java:2028)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_206580_(MinecraftServerMixin.java:251)
+	at java.base/Thread.run(Thread.java:840)
+Caused by: IllegalArgumentException: InternalLambdaFactory$$Lambda$7429.Lmbda$1 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:167)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2283)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2318)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1843)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:318)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2) Error notifying InjectionListener CommonModule$1$$Lambda$7409/0x00007a503517c8d0@7eabc3b8 of PostEnableMessages.
+ Reason: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+  at AutoBindModule.configure(AutoBindModule.java:36)
+      \_ installed by: ServerCommonModule -> AutoBindModule
+  while locating PostEnableMessages
+Caused by: IllegalStateException: Couldn't create lambda for: "MethodHandle(PostEnableMessages,PostEnableEvent)void". Failed to implement: LambdaType[type=BiConsumer,method=accept(Object,Object)void]
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:154)
+	at LambdaFactory.create(LambdaFactory.java:659)
+	at LambdaFactory.createBiConsumer(LambdaFactory.java:300)
+	at BaseBusImpl.findSubscriptions(BaseBusImpl.java:145)
+	at EventBusImpl.register(EventBusImpl.java:52)
+	at MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:130)
+	at ConstructorInjector.provision(ConstructorInjector.java:125)
+	at ConstructorInjector.construct(ConstructorInjector.java:91)
+	at ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300)
+	at ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at SingletonScope$1.get(SingletonScope.java:169)
+	at InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213)
+	at InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186)
+	at InternalInjectorCreator.build(InternalInjectorCreator.java:113)
+	at Guice.createInjector(Guice.java:87)
+	at Guice.createInjector(Guice.java:69)
+	at Guice.createInjector(Guice.java:59)
+	at SpigotPlugin.onLoad(SpigotPlugin.java:53)
+	at TRANSFORMER/arclight@1.20.1-1.0.5-1a8925b/org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:440)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641)
+	at TRANSFORMER/minecraft@1.20.1/DedicatedServer.m_7038_(DedicatedServerMixin.java:158)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_130011_(MinecraftServerMixin.java:2028)
+	at TRANSFORMER/minecraft@1.20.1/MinecraftServer.m_206580_(MinecraftServerMixin.java:251)
+	at java.base/Thread.run(Thread.java:840)
+Caused by: IllegalArgumentException: InternalLambdaFactory$$Lambda$7429.Lmbda$2 not in same package as lookup class
+	at java.base/MethodHandleStatics.newIllegalArgumentException(MethodHandleStatics.java:167)
+	at java.base/MethodHandles$Lookup$ClassFile.newInstance(MethodHandles.java:2283)
+	at java.base/MethodHandles$Lookup.makeClassDefiner(MethodHandles.java:2318)
+	at java.base/MethodHandles$Lookup.defineClass(MethodHandles.java:1843)
+	at InternalMethodHandles$Java9Adapter.lambda$defineClass$2(InternalMethodHandles.java:145)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalMethodHandles$Java9Adapter.defineClass(InternalMethodHandles.java:145)
+	at MethodHandlesExtensions.defineClass(MethodHandlesExtensions.java:73)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$0(InternalLambdaFactory.java:339)
+	at InternalUtilities.doUnchecked(InternalUtilities.java:93)
+	at InternalLambdaFactory.lambda$createGeneratedFunction$1(InternalLambdaFactory.java:338)
+	at java.base/AccessController.doPrivileged(AccessController.java:318)
+	at InternalLambdaFactory.createGeneratedFunction(InternalLambdaFactory.java:338)
+	at InternalLambdaFactory.create(InternalLambdaFactory.java:152)
+	... 24 more
+
+2 errors
+
+======================
+Full classname legend:
+======================
+AccessController:                   "java.security.AccessController"
+AutoBindModule:                     "org.geysermc.floodgate.module.AutoBindModule"
+BaseBusImpl:                        "org.geysermc.event.bus.impl.BaseBusImpl"
+BiConsumer:                         "java.util.function.BiConsumer"
+CommonModule$1$$Lambda$7409:        "org.geysermc.floodgate.module.CommonModule$1$$Lambda$7409"
+ConstructorBindingImpl$Factory:     "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory"
+ConstructorInjector:                "org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector"
+DedicatedServer:                    "net.minecraft.server.dedicated.DedicatedServer"
+EventBusImpl:                       "org.geysermc.event.bus.impl.EventBusImpl"
+Guice:                              "org.geysermc.floodgate.shadow.com.google.inject.Guice"
+InternalFactoryToProviderAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter"
+InternalInjectorCreator:            "org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator"
+InternalLambdaFactory:              "org.lanternpowered.lmbda.InternalLambdaFactory"
+InternalLambdaFactory$$Lambda$7429: "org.lanternpowered.lmbda.InternalLambdaFactory$$Lambda$7429"
+InternalMethodHandles$Java9Adapter: "org.lanternpowered.lmbda.InternalMethodHandles$Java9Adapter"
+InternalUtilities:                  "org.lanternpowered.lmbda.InternalUtilities"
+LambdaFactory:                      "org.lanternpowered.lmbda.LambdaFactory"
+MembersInjectorImpl:                "org.geysermc.floodgate.shadow.com.google.inject.internal.MembersInjectorImpl"
+MethodHandleStatics:                "java.lang.invoke.MethodHandleStatics"
+MethodHandles$Lookup:               "java.lang.invoke.MethodHandles$Lookup"
+MethodHandles$Lookup$ClassFile:     "java.lang.invoke.MethodHandles$Lookup$ClassFile"
+MethodHandlesExtensions:            "org.lanternpowered.lmbda.MethodHandlesExtensions"
+Metrics:                            "org.geysermc.floodgate.util.Metrics"
+MinecraftServer:                    "net.minecraft.server.MinecraftServer"
+PostEnableMessages:                 "org.geysermc.floodgate.util.PostEnableMessages"
+ProviderToInternalFactoryAdapter:   "org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter"
+ServerCommonModule:                 "org.geysermc.floodgate.module.ServerCommonModule"
+SingletonScope$1:                   "org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1"
+SpigotPlugin:                       "org.geysermc.floodgate.SpigotPlugin"
+========================
+End of classname legend:
+========================
+
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:589) ~[?:?] {}
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:190) ~[?:?] {}
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:113) ~[?:?] {}
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:87) ~[?:?] {}
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:69) ~[?:?] {}
+	at org.geysermc.floodgate.shadow.com.google.inject.Guice.createInjector(Guice.java:59) ~[?:?] {}
+	at org.geysermc.floodgate.SpigotPlugin.onLoad(SpigotPlugin.java:53) ~[?:?] {}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServerMixin.java:440) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:641) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[14Dec2024 01:32:22.437] [Server thread/INFO] [SkinsRestorer/]: Loading SkinsRestorer v15.5.0
+[14Dec2024 01:32:22.439] [Server thread/INFO] [Geyser-Spigot/]: Loading Geyser-Spigot v2.4.2-SNAPSHOT
+[14Dec2024 01:32:23.068] [Server thread/INFO] [Geyser-Spigot/]: Loading extensions...
+[14Dec2024 01:32:23.070] [Server thread/INFO] [Geyser-Spigot/]: Loaded 0 extension(s)
+[14Dec2024 01:32:23.078] [Server thread/INFO] [SkinsRestorer/]: Enabling SkinsRestorer v15.5.0
+[14Dec2024 01:32:25.043] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[14Dec2024 01:32:27.073] [Server thread/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[14Dec2024 01:32:27.411] [Server thread/ERROR] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[31;1mFailed to register Floodgate skin listener (Is floodgate and SkinsRestorer up to date?)[0;39m
+java.lang.NullPointerException: Cannot invoke "org.geysermc.floodgate.api.FloodgateApi.getEventBus()" because the return value of "org.geysermc.floodgate.api.FloodgateApi.getInstance()" is null
+	at net.skinsrestorer.shared.floodgate.FloodgateUtil.registerListener(FloodgateUtil.java:40) ~[?:?] {}
+	at net.skinsrestorer.shared.plugin.SRPlugin.registerFloodgate(SRPlugin.java:358) ~[?:?] {}
+	at net.skinsrestorer.shared.plugin.SRServerPlugin.startupPlatform(SRServerPlugin.java:107) ~[?:?] {}
+	at net.skinsrestorer.shared.plugin.SRPlugin.startup(SRPlugin.java:338) ~[?:?] {}
+	at net.skinsrestorer.shared.plugin.SRBootstrapper.startPlugin(SRBootstrapper.java:62) ~[?:?] {}
+	at net.skinsrestorer.bukkit.SRBukkitBootstrap.onEnable(SRBukkitBootstrap.java:45) ~[?:?] {}
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginMixin,pl:mixin:A,re:mixin,re:mixin}
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,re:mixin,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServerMixin.java:546) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServerMixin.java:460) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.handler$zbl000$arclight$loadPlugins(DedicatedServerMixin.java:642) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:158) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:28.474] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[14Dec2024 01:32:28.474] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[14Dec2024 01:32:28.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Dec2024 01:32:28.725] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[14Dec2024 01:32:29.415] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[14Dec2024 01:32:29.416] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[14Dec2024 01:32:29.421] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[14Dec2024 01:32:29.421] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[14Dec2024 01:32:29.421] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[14Dec2024 01:32:29.421] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[14Dec2024 01:32:29.421] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[14Dec2024 01:32:29.422] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[14Dec2024 01:32:29.423] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14Dec2024 01:32:29.423] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14Dec2024 01:32:29.424] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14Dec2024 01:32:29.425] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14Dec2024 01:32:29.426] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[14Dec2024 01:32:29.426] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14Dec2024 01:32:29.427] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[14Dec2024 01:32:29.427] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[14Dec2024 01:32:29.427] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[14Dec2024 01:32:29.427] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[14Dec2024 01:32:29.427] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[14Dec2024 01:32:36.159] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[14Dec2024 01:32:36.160] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[14Dec2024 01:32:36.160] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[14Dec2024 01:32:36.161] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14Dec2024 01:32:36.161] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[14Dec2024 01:32:36.161] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14Dec2024 01:32:36.162] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[14Dec2024 01:32:36.162] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[14Dec2024 01:32:36.162] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[14Dec2024 01:32:36.162] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[14Dec2024 01:32:36.163] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[14Dec2024 01:32:36.163] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[14Dec2024 01:32:36.163] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[14Dec2024 01:32:36.164] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[14Dec2024 01:32:36.170] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[14Dec2024 01:32:36.170] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[14Dec2024 01:32:36.171] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[14Dec2024 01:32:36.172] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[14Dec2024 01:32:36.173] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14Dec2024 01:32:36.173] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14Dec2024 01:32:36.174] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14Dec2024 01:32:36.174] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14Dec2024 01:32:36.175] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[14Dec2024 01:32:36.175] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14Dec2024 01:32:36.176] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[14Dec2024 01:32:36.176] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[14Dec2024 01:32:36.176] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[14Dec2024 01:32:36.176] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[14Dec2024 01:32:36.176] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[14Dec2024 01:32:36.210] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[14Dec2024 01:32:36.211] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[14Dec2024 01:32:36.211] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[14Dec2024 01:32:36.212] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14Dec2024 01:32:36.212] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[14Dec2024 01:32:36.214] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14Dec2024 01:32:36.214] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[14Dec2024 01:32:36.215] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[14Dec2024 01:32:36.215] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[14Dec2024 01:32:36.216] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[14Dec2024 01:32:36.216] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[14Dec2024 01:32:36.216] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[14Dec2024 01:32:36.217] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[14Dec2024 01:32:36.217] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[14Dec2024 01:32:36.218] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[14Dec2024 01:32:36.218] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[14Dec2024 01:32:36.219] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[14Dec2024 01:32:36.219] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[14Dec2024 01:32:36.220] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[14Dec2024 01:32:36.220] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[14Dec2024 01:32:36.221] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[14Dec2024 01:32:36.221] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[14Dec2024 01:32:36.221] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[14Dec2024 01:32:36.221] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[14Dec2024 01:32:36.223] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[14Dec2024 01:32:36.223] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14Dec2024 01:32:36.224] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[14Dec2024 01:32:36.224] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14Dec2024 01:32:36.225] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14Dec2024 01:32:36.226] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[14Dec2024 01:32:36.226] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14Dec2024 01:32:36.227] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[14Dec2024 01:32:36.227] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[14Dec2024 01:32:36.227] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[14Dec2024 01:32:36.227] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[14Dec2024 01:32:36.228] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[14Dec2024 01:32:36.248] [Server thread/INFO] [Images/]: Enabling Images v2.5.1
+[14Dec2024 01:32:36.386] [Server thread/INFO] [ViaVersion/]: Enabling ViaVersion v5.0.3
+[14Dec2024 01:32:36.395] [Server thread/INFO] [ViaVersion/]: ViaVersion detected server version: 1.20-1.20.1 (763)
+[14Dec2024 01:32:36.426] [Server thread/INFO] [floodgate/]: Enabling floodgate v2.2.3-SNAPSHOT (b110-e7e40f5)
+[14Dec2024 01:32:36.438] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling floodgate v2.2.3-SNAPSHOT (b110-e7e40f5) (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "org.geysermc.floodgate.FloodgatePlatform.enable(org.geysermc.floodgate.shadow.com.google.inject.Module[])" because "this.platform" is null
+	at org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70) ~[?:?] {}
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPluginMixin.java:266) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginMixin,pl:mixin:A,re:mixin,re:mixin}
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoaderMixin.java:342) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:JavaPluginLoaderMixin,pl:mixin:A}
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,re:mixin,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServerMixin.java:546) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServerMixin.java:460) ~[arclight-1.20.1-1.0.5-1a8925b.jar%23163!/:arclight-1.20.1-1.0.5-1a8925b] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.bukkit.json:CraftServerMixin,pl:mixin:A,re:mixin}
+	at net.minecraft.server.MinecraftServer.handler$zbb000$arclight$enablePlugins(MinecraftServerMixin.java:2137) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServerMixin.java:385) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServerMixin.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServerMixin.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:A,re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:36.439] [Server thread/INFO] [Geyser-Spigot/]: Enabling Geyser-Spigot v2.4.2-SNAPSHOT
+[14Dec2024 01:32:36.784] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[14Dec2024 01:32:36.799] [Server thread/INFO] [Geyser-Spigot/]: ******************************************
+[14Dec2024 01:32:36.800] [Server thread/INFO] [Geyser-Spigot/]: 
+[14Dec2024 01:32:36.800] [Server thread/INFO] [Geyser-Spigot/]: Loading Geyser version 2.4.2-b672 (git-master-73f7259)
+[14Dec2024 01:32:36.801] [Server thread/INFO] [Geyser-Spigot/]: 
+[14Dec2024 01:32:36.801] [Server thread/INFO] [Geyser-Spigot/]: ******************************************
+[14Dec2024 01:32:42.770] [epollEventLoopGroup-3-1/INFO] [Geyser-Spigot/]: Started Geyser on UDP port 19132
+[14Dec2024 01:32:42.841] [Server thread/INFO] [Geyser-Spigot/]: Done (6.042s)! Run /geyser help for help!
+[14Dec2024 01:32:43.084] [Thread-9/INFO] [Geyser-Spigot/]: There's a new Geyser update available to support Bedrock version 1.21.51. Download it here: https://geysermc.org/download
+[14Dec2024 01:32:43.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Dec2024 01:32:44.082] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[14Dec2024 01:32:44.139] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: IO error while trying to use legacy ping passthrough
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?] {}
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[?:?] {re:mixin,re:mixin}
+	at java.io.DataInputStream.readByte(DataInputStream.java:268) ~[?:?] {re:mixin,re:mixin}
+	at org.cloudburstmc.nbt.util.VarInts.decode(VarInts.java:149) ~[?:?] {}
+	at org.cloudburstmc.nbt.util.VarInts.readUnsignedInt(VarInts.java:25) ~[?:?] {}
+	at org.geysermc.geyser.ping.GeyserLegacyPingPassthrough.run(GeyserLegacyPingPassthrough.java:129) ~[?:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:47.575] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[14Dec2024 01:32:47.585] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: IO error while trying to use legacy ping passthrough
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?] {}
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[?:?] {re:mixin,re:mixin}
+	at java.io.DataInputStream.readByte(DataInputStream.java:268) ~[?:?] {re:mixin,re:mixin}
+	at org.cloudburstmc.nbt.util.VarInts.decode(VarInts.java:149) ~[?:?] {}
+	at org.cloudburstmc.nbt.util.VarInts.readUnsignedInt(VarInts.java:25) ~[?:?] {}
+	at org.geysermc.geyser.ping.GeyserLegacyPingPassthrough.run(GeyserLegacyPingPassthrough.java:129) ~[?:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:49.875] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[14Dec2024 01:32:49.878] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: IO error while trying to use legacy ping passthrough
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?] {}
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[?:?] {re:mixin,re:mixin}
+	at java.io.DataInputStream.readByte(DataInputStream.java:268) ~[?:?] {re:mixin,re:mixin}
+	at org.cloudburstmc.nbt.util.VarInts.decode(VarInts.java:149) ~[?:?] {}
+	at org.cloudburstmc.nbt.util.VarInts.readUnsignedInt(VarInts.java:25) ~[?:?] {}
+	at org.geysermc.geyser.ping.GeyserLegacyPingPassthrough.run(GeyserLegacyPingPassthrough.java:129) ~[?:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:52.859] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[14Dec2024 01:32:52.863] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: IO error while trying to use legacy ping passthrough
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?] {}
+	at java.net.Socket$SocketInputStream.read(Socket.java:961) ~[?:?] {}
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288) ~[?:?] {re:mixin,re:mixin}
+	at java.io.DataInputStream.readByte(DataInputStream.java:268) ~[?:?] {re:mixin,re:mixin}
+	at org.cloudburstmc.nbt.util.VarInts.decode(VarInts.java:149) ~[?:?] {}
+	at org.cloudburstmc.nbt.util.VarInts.readUnsignedInt(VarInts.java:25) ~[?:?] {}
+	at org.geysermc.geyser.ping.GeyserLegacyPingPassthrough.run(GeyserLegacyPingPassthrough.java:129) ~[?:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:54.800] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.804] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.804] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.806] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.814] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.818] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.823] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.824] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.826] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.829] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.854] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.854] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.856] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.856] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:54.864] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:55.132] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:55.634] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:55.854] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[14Dec2024 01:32:55.857] [Geyser Scheduled Thread-2-1/WARN] [Geyser-Spigot/]: IO error while trying to use legacy ping passthrough
+java.net.SocketException: Broken pipe
+	at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445) ~[?:?] {}
+	at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831) ~[?:?] {}
+	at java.net.Socket$SocketOutputStream.write(Socket.java:1035) ~[?:?] {}
+	at java.net.Socket$SocketOutputStream.write(Socket.java:1031) ~[?:?] {}
+	at java.io.DataOutputStream.writeByte(DataOutputStream.java:158) ~[?:?] {re:mixin,re:mixin}
+	at org.geysermc.geyser.ping.GeyserLegacyPingPassthrough.run(GeyserLegacyPingPassthrough.java:126) ~[?:?] {}
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?] {}
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?] {}
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?] {}
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {re:mixin,re:mixin}
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.82.Final.jar%23116!/:4.1.82.Final] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin,re:mixin,re:mixin,re:mixin,re:mixin}
+[14Dec2024 01:32:56.137] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:56.631] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Dec2024 01:32:57.131] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[14Dec2024 01:32:57.750] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14620 ms
+[14Dec2024 01:32:57.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (29.257s)! For help, type "help"
+[14Dec2024 01:32:57.784] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Dec2024 01:32:57.788] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[14Dec2024 01:32:57.852] [Craft Scheduler Thread - 3/INFO] [ViaVersion/]: Finished mapping loading, shutting down loader executor!
+[14Dec2024 01:32:57.990] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14Dec2024 01:32:57.991] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14Dec2024 01:32:57.991] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[14Dec2024 01:32:57.992] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[14Dec2024 01:32:57.992] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[14Dec2024 01:32:57.992] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[14Dec2024 01:32:57.993] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14Dec2024 01:32:57.993] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.0[0;39m
+[14Dec2024 01:32:57.993] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mad418e4[0;39m
+[14Dec2024 01:32:57.994] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[14Dec2024 01:32:57.994] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[14Dec2024 01:32:57.994] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[14Dec2024 01:32:57.995] [Craft Scheduler Thread - 1/INFO] [Console/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[14Dec2024 01:32:58.371] [Server thread/WARN] [ViaVersion/]: There is a newer plugin version available: 5.2.0, you're on: 5.0.3
+[14Dec2024 01:32:59.699] [Craft Scheduler Thread - 2/INFO] [Images/]: Loaded 0 images...
